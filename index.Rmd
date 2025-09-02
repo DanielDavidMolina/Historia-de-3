@@ -1,0 +1,390 @@
+---
+title: "Historia 3 — EES N°2"
+output:
+  html_document:
+    md_extensions: "+raw_html+markdown_in_html_blocks"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>
+details > summary {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+details[open] > summary {
+  background-color: #0056b3;
+}
+details details > summary {
+  background-color: #28a745;
+  color: white;
+  margin-top: 8px;
+}
+details details[open] > summary {
+  background-color: #1e7e34;
+}
+</style>
+
+<style>
+details > summary {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+details[open] > summary {
+  background-color: #0056b3;
+}
+</style>
+
+<style>
+p {
+  text-align: justify;
+  text-indent: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+</style>
+
+<!-- Encabezado fijo -->
+<div style="position: fixed; top: 0; left: 0; width: 100%; 
+            background-color: #0056b3; color: white; 
+            padding: 10px; z-index: 1000;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.3);">
+
+  <table style="width:100%; border-collapse:collapse; color: white;">
+    <tr>
+      <td style="width:80%; vertical-align:middle;">
+        <h1 style="margin: 0;">Historia de tercer año. EES N°2.</h1>
+        <h4 style="margin: 0;">2° Cuatrimestre 2025</h4>
+        <p style="margin: 0;">Profesor: Daniel D. Molina</p>
+      </td>
+      <td style="width:20%; text-align:right;">
+        <img src="historia3.png" width="100px" />
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+<!-- Espaciado para que el contenido no quede oculto debajo del encabezado -->
+<div style="margin-top: 150px;">
+</div>
+
+## ¡Bienvenidos/as!
+
+<div style="border: 1px solid #4B5320; padding: 15px; border-radius: 5px; background-color: #f9f9f9; margin-bottom: 20px;box-shadow: 0px 4px 8px rgba(0,0,0,0.3);">
+  <p style="margin: 0 0 5px 0; text-indent: 30px;">Bienvenidos y bienvenidas a este espacio. En él encontrarán materiales, recursos y actividades para desarrollar el segundo cuatrimestre de <span style="font-weight: bold;">Historia de tercer año B.</span> <br>¡Felicitaciones por lo hecho hasta el momento! Buena suerte.
+  </p>
+  <p style="margin: 0; font-weight: bold; text-align: right;">Prof. Daniel D. Molina</p>
+</div>
+
+## Breve guía práctica. 
+
+<p style="text-indent: 30px; margin-bottom: 20px;">
+<span style="font-weight: bold;">¿Cómo utilizar esta página?</span> <br>  <p style="margin: 0 0 5px 0; text-indent: 30px;">En esta página encontrarán unos botones que les permitirán acceder a los contenidos de las clases, recursos y ejercicios.<br>Las actividaddes se entregarán en formato físico (papel) y de manera presencial durante las clases. <br>Cuando algún material deba ser copiado en la carpeta se los indicare en el aula.</p> <br><span style="font-weight: bold;">Importante:</span> <br><p style="margin: 0 0 5px 0; text-indent: 30px;">Para aprobar la cursada es fundamental que cumplan con los requisitos de asistencia, observen las pautas de los Acuerdos de Convivencia y realicen las actividades señaladas como obligatorias. Tengan presente que son asignaturas con mucho trabajo en clase, que no puede ser reemplazado por la simple realización de trabajos prácticos. <br>Por otra parte, es sumamente importante que respeten la puntualidad del inicio de clases y de finalización de las mismas.</p>
+
+<details>
+  <summary><strong>Contenidos</strong></summary>
+
+<details>
+    <summary><strong>Índice de temas</strong></summary>
+ <p style="text-indent: 30px; margin-bottom: 20px;">
+<span style="font-weight: bold;">Fundamentación</span> <br>Durante el segundo cuatrimestre, los contenidos se orientan al estudio de los procesos históricos de los siglos XIX y XX vinculados con la consolidación de los estados nacionales, la expansión del modelo agroexportador, la formación del sistema político argentino y las transformaciones sociales y culturales. Se busca que los y las estudiantes comprendan la relación entre la historia argentina y la mundial, analicen actores sociales y políticos, y desarrollen una mirada crítica sobre los procesos de construcción de la ciudadanía.
+</p>
+    <table style="width:100%; border-collapse:collapse; font-family: Arial, sans-serif; margin-top:10px;">
+      <thead style="background-color:#0056b3; color:white;">
+        <tr>
+          <th style="padding:8px; border:1px solid #ccc;">Unidad</th>
+          <th style="padding:8px; border:1px solid #ccc;">Tema</th>
+          <th style="padding:8px; border:1px solid #ccc;">Contenidos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:8px; border:1px solid #ccc;">5</td>
+          <td style="padding:8px; border:1px solid #ccc;">Revoluciones y cambios sociales</td>
+          <td style="padding:8px; border:1px solid #ccc;">Revolución Francesa y Revolución Industrial: impacto en el mundo occidental.Transformaciones económicas, sociales y culturales. Europa 1848. Los nacionalismos en Europa. Revolución Industrial (segunda fase).</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #ccc;">6</td>
+          <td style="padding:8px; border:1px solid #ccc;">Organización Nacional y consolidación del Estado Argentino (1853–1880).</td>
+          <td style="padding:8px; border:1px solid #ccc;">Constitución de 1853. Conflictos entre Buenos Aires y la Confederación.
+ Presidencias de Mitre, Sarmiento y Avellaneda. Conformación del Estado y expansión del capitalismo en la Argentina.</td>
+        </tr>
+        <tr>
+          <td style="padding:8px; border:1px solid #ccc;">7</td>
+          <td style="padding:8px; border:1px solid #ccc;">La Argentina agroexportadora (1880–1916).</td>
+          <td style="padding:8px; border:1px solid #ccc;">Modelo económico agroexportador. Inmigración y conformación de la sociedad argentina. Conflictos sociales: anarquismo, socialismo y sindicalismo. La Ley Sáenz Peña y el inicio de la democracia de masas.</td>
+        </tr>
+      </tbody>
+    </table>
+<p style="text-indent: 30px; margin-bottom: 20px;">
+<span style="font-weight: bold;">Propósitos de enseñanza.</span><br>• Favorecer la comprensión de los procesos de construcción del Estado argentino en el marco del contexto mundial.
+<br>• Promover el análisis crítico de fuentes primarias y secundarias.
+<br>• Relacionar procesos políticos, económicos y sociales.
+<br>• Desarrollar la capacidad de argumentación oral y escrita en torno a problemas históricos.</p>
+
+  </details>
+  
+ <details>
+  <summary><strong>Tabla de contenidos</strong></summary>
+
+  <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; margin-top:10px;">
+    <thead style="background-color:#0056b3; color:white;">
+      <tr>
+        <th style="padding:8px; border:1px solid #ccc;">Eje</th>
+        <th style="padding:8px; border:1px solid #ccc;">Contenidos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:8px; border:1px solid #ccc;">Objeto de estudio</td>
+        <td style="padding:8px; border:1px solid #ccc;">
+          Consolidación y expansión de la sociedad capitalista. <br>
+          Formación de los imperios coloniales.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #ccc;">Contenidos transversales</td>
+        <td style="padding:8px; border:1px solid #ccc;">
+          Educación para la ciudadanía; Derechos humanos; Perspectiva de género; <br>
+          Ambiente y sustentabilidad; Diversidad cultural; Pensamiento crítico; ESI
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #ccc;">Conceptos transdisciplinares</td>
+        <td style="padding:8px; border:1px solid #ccc;">
+          Similitud – Diferencia; Continuidad – Cambio; Conflicto – Acuerdo; <br>
+          Interrelación – Comunicación; Identidad – Alteridad; Poder
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #ccc;">Conceptos disciplinares</td>
+        <td style="padding:8px; border:1px solid #ccc;">
+          Conflicto; Diversidad económica y cultural; Imperialismo y neocolonialismo; <br>
+          Clases sociales; Tecnología; Circuitos de producción; División social del trabajo; Resistencias sociales
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #ccc;">Segunda Revolución Industrial</td>
+        <td style="padding:8px; border:1px solid #ccc;">
+          Cambios científicos e ideológicos; Transformaciones tecnológicas; <br>
+          Nuevas formas de producción; Capitalismo industrial; Comunicaciones; <br>
+          Relación industrias–bancos; Reparto colonial del mundo
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #ccc;">Tensiones sociales y políticas</td>
+        <td style="padding:8px; border:1px solid #ccc;">
+          Revoluciones de 1848; Comuna de París; Movimiento obrero; <br>
+          Vida en la sociedad industrial: cultura y urbanización
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #ccc;">Organización de la Argentina moderna</td>
+        <td style="padding:8px; border:1px solid #ccc;">
+          Instituciones y Estado; Actores en conflicto; Economía y territorio; Producción agropecuaria (lanar, cerealero, ganadero); Inmigración; Transformaciones económicas, inmigración, conformación de una nueva sociedad; Movimientos obreros.Fronteras y pueblos originarios; Urbanización y tecnología.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+<p style="text-indent: 30px; margin-bottom: 20px;">
+<span style="font-weight: bold;">Evaluación:</span><br><span style="font-weight: bold;">•Formativa:</span><br> Observación de participación, debates, trabajos prácticos y análisis de fuentes.<br><span style="font-weight: bold;">•Sumativa:</span><br> Trabajos escritos (individuales y grupales). Pruebas de desarrollo conceptual. Presentaciones orales con apoyo de recursos digitales.</p>
+</details>
+
+<details>
+<summary><strong>Contenidos y Actividades</strong></summary>
+<p style="text-indent: 30px; margin-bottom: 20px;">
+<div style="border: 1px solid #4B5320; padding: 15px; border-radius: 5px; background-color: #f9f9f9; margin-bottom: 20px;box-shadow: 0px 4px 8px rgba(0,0,0,0.3);">
+  <p style="margin: 0 0 5px 0; text-indent: 30px;">En este apartado encontrarán las explicaciones correspondientes a los conceptos desarrollados en cada clase, las actividaddes que deben desarrollar y el material de apoyo
+  </p>
+</div>
+
+<details>
+<summary><strong>Revoluciones y Cambios Sociales</strong></summary>
+<p style="text-indent: 30px; margin-bottom: 20px;">
+<div style="border: 1px solid #4B5320; padding: 15px; border-radius: 5px; background-color: #f9f9f9; margin-bottom: 20px;box-shadow: 0px 4px 8px rgba(0,0,0,0.3);">
+<details>
+  <summary><span class="btn btn-primary">📦 Mostrar / ocultar módulo</span></summary>
+
+```{r, child="modulo_revoluciones.Rmd", echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+<!-- CLASE 1 -->
+<details>
+  <summary>📚 Materiales — Clase 1: Diagnóstico y mapa de problemas</summary><br>
+<div style="border: 1px solid #4B5320; padding: 15px; border-radius: 5px; background-color: #f9f9f9; margin-bottom: 20px;box-shadow: 0px 4px 8px rgba(0,0,0,0.3);">
+  <p style="margin: 0 0 5px 0; text-indent: 30px;">**Clase 1 – Diagnóstico y mapa de problemas**<br>
+- Actividad: Lluvia de ideas sobre “revolución”, “ciudadanía”, “industria”.<br>
+- Fuente disparadora: Caricatura de 1789 y foto de fábrica c. 1850.<br>
+- Producto: Mapa conceptual inicial.<br>
+**Fuentes/visuales**
+- Caricatura de 1789 (A4).
+- Foto de fábrica c. 1850 (A4).
+![Caricatura de 1789 – Musée Carnavalet](img/clase1.jpg){width=100%}
+
+![Interior de fábrica ca. 1865 – LoC](img/clase1B.jpg){width=100%}
+</p>
+</div>
+</details>
+
+<!-- CLASE 2 -->
+<details>
+  <summary>📜 Materiales — Clase 2: 1789, Derechos y ciudadanía</summary>
+
+**Impresos**
+- Guía de lectura (art. 1–6, 10–11) de la Declaración de 1789.
+- Cuadro “Súbdito vs. Ciudadano” (derechos, representación, límites).
+
+**Fuentes/visuales**
+- Extracto corto de la Declaración con subrayado.
+- Plantilla de línea de tiempo 1776–1799.
+
+**TIC**
+- Nube de palabras con términos de la Declaración.
+
+**Evidencia**
+- Mini-debate jacobinos vs. girondinos (tarjetas de rol).
+</details>
+
+<!-- CLASE 3 -->
+<details>
+  <summary>🌍 Materiales — Clase 3: Haití e independencias</summary>
+
+**Impresos**
+- Dossier breve sobre Revolución Haitiana + mapa del Caribe.
+- Fragmentos de Cabildo/Gaceta del Río de la Plata.
+- Plantilla de línea de tiempo comparada (EE.UU., Francia, Haití, Río de la Plata).
+
+**Visuales**
+- Mapa “Atlántico revolucionario” (A3).
+
+**TIC**
+- Línea de tiempo digital colaborativa (Timeline, Sutori).
+
+**Evidencia**
+- 5 oraciones: “qué cambió” (político/social/económico) en cada caso.
+</details>
+
+<!-- CLASE 4 -->
+<details>
+  <summary>🏭 Materiales — Clase 4: Revolución Industrial y ciudad</summary>
+
+**Impresos**
+- Reglamento fabril (fragmento) + guía (jornada, salarios, disciplina).
+- Ficha “Ciudad industrial: problemas y soluciones”.
+
+**Datos para gráfico rápido**
+- % población urbana 1800–1900 (2–3 países).
+- Índice de salario obrero real (serie simple).
+
+**Visuales**
+- Fotos de barrios obreros y máquinas.
+
+**TIC**
+- Hoja de cálculo o R para gráfico de líneas.
+
+**Evidencia**
+- Párrafo: vínculo **fábrica–ciudad–cuestión social**.
+</details>
+
+<!-- CLASE 5 -->
+<details>
+  <summary>🗳️ Materiales — Clase 5: 1830/1848 e ideologías</summary>
+
+**Impresos**
+- Cuadro de ideologías (liberalismo, conservadurismo, socialismo, nacionalismo).
+- 2 fuentes: extracto del *Manifiesto Comunista* (1848) + proclama liberal/nacional.
+
+**Visuales**
+- Esquema “del estamento a la clase”.
+
+**TIC**
+- Quiz breve (Kahoot/Forms).
+
+**Evidencia**
+- Justificación (6–8 líneas): qué ideología apoya/critica el sufragio ampliado y por qué.
+</details>
+
+<!-- CLASE 6 -->
+<details>
+  <summary>✊ Materiales — Clase 6: Movimiento obrero y repertorios</summary>
+
+**Impresos**
+- Estatuto / aviso de huelga (fragmento) + **lista de cotejo** de fuentes.
+- Ficha “Repertorios de acción” (huelga, petición, boicot, prensa, sindicato).
+
+**Visuales**
+- Caricatura obrera (s. XIX) + guía de lectura de imágenes.
+
+**TIC**
+- Línea de tiempo de huelgas/leyes laborales (por equipo).
+
+**Evidencia**
+- Dossier “La voz obrera”: 1 caricatura + 1 texto con comentario (10–12 líneas).
+</details>
+
+<!-- CLASE 7 -->
+<details>
+  <summary>🇦🇷 Materiales — Clase 7: Río de la Plata (1810–1853) y puente a 1912</summary>
+
+**Impresos**
+- Fragmentos: Acta 25 de Mayo / 9 de Julio / Preámbulo 1853.
+- Cuadro de proyectos políticos (unitarios/federales).
+- Mapa político del Río de la Plata (1820–1853) para anotar.
+
+**Visuales**
+- Línea de tiempo 1810–1853 (plantilla).
+
+**TIC**
+- Mapa interactivo de hitos.
+
+**Evidencia**
+- Mini-ensayo (½ pág.): “De la revolución a la organización del Estado” + anticipo **Ley Sáenz Peña (1912)**.
+</details>
+
+<!-- CLASE 8 -->
+<details>
+  <summary>🧩 Materiales — Clase 8: Integración y evaluación</summary>
+
+**Impresos**
+- **Rúbrica analítica** (4 niveles) + lista de cotejo de fuentes.
+- Guía del producto final (línea de tiempo + mapa + cuadro de ideologías + comentario).
+
+**TIC**
+- Presentación breve (diapositivas) o póster digital.
+
+**Evidencia**
+- Autoevaluación y coevaluación (formulario de 10 ítems).
+</details>
+
+</p>
+</div>
+</details>
+</details>
+<details>
+<summary><strong>Organización Nacional y consolidación del Estado Argentino (1853–1880).</strong></summary>
+<p style="text-indent: 30px; margin-bottom: 20px;">
+Este apartado todavía no se encuentra habilitado.</p>
+</details>
+<details>
+<summary><strong>La Argentina agroexportadora (1880–1916).</strong></summary>
+<p style="text-indent: 30px; margin-bottom: 20px;">
+Este apartado todavía no se encuentra habilitado.</p>
+</details>
+
+</details>
